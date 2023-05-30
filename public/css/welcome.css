@@ -1,0 +1,94 @@
+* {
+	font-family: 'Acme', sans-serif;
+	font-family: 'Heebo', sans-serif;
+	font-family: 'Signika', sans-serif;
+	font-family: 'Source Serif Pro', serif;
+}
+
+body {
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+}
+
+.loginOrRegister {
+	width: 80%;
+	display: grid;
+	margin: 0 auto;
+	justify-content: center;
+	grid-template-columns: 400px 400px 400px;
+							 background-color: rgba(255, 255, 255, 0.4);
+							 border-radius: 15px;
+							 padding: 20px 0px;
+	grid-gap: 25px 20px;
+	padding: 100px 0px;
+	box-shadow: 0px 0px 20px rgb(51, 51, 51);
+}
+
+.loginOrRegister h1 {
+	text-shadow: 0px 0px 2px black,
+	0px 0px 2px black,
+	0px 0px 2px black,
+	0px 0px 2px black,
+	0px 0px 2px black,
+	0px 0px 2px black;
+	color: white;
+	text-align: center;
+}
+
+.loginOrRegister a {
+	text-decoration: none;
+	background-color: rgb(40,40,40);
+	width: 50%;
+	margin: 0 auto;
+	color: white;
+	padding: 20px 0px;
+	text-align: center;
+	border-radius: 15px;
+	transition: 0.7s;
+}
+
+.loginOrRegister a:hover {
+	border-radius: 50px;
+	box-shadow: 0px 0px 20px rgb(51, 51, 51);
+}
+
+.itemOU {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.version {
+	color: white;
+	text-shadow: 0px 0px 2px black,
+	0px 0px 2px black,
+	0px 0px 2px black,
+	0px 0px 2px black,
+	0px 0px 2px black,
+	0px 0px 2px black;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.linkBack {
+	font-size: 23px;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.linkBack a {
+	text-shadow: 0px 0px 2px black,
+							 0px 0px 2px black,
+							 0px 0px 2px black,
+							 0px 0px 2px black,
+							 0px 0px 2px black,
+							 0px 0px 2px black;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
